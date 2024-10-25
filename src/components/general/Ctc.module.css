@@ -1,0 +1,47 @@
+.ctc {
+  background-color: rgb(62, 62, 63);
+  border: 0.5px solid rgba(0, 0, 0, 0.199);
+  border-radius: 4px;
+  margin: 10px;
+  width: 200px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ctcHeader {
+  background-color: rgb(99, 99, 99);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 12px;
+}
+
+.ctcButton {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ctcButton > div {
+  margin-left: 2px;
+}
+
+.ctcButton:hover {
+  background-color: #0056b3;
+}
+
+.ctcHeader span:last-of-type {
+  position: absolute;
+  transform: translateX(144px) translateY(-20px);
+}
+
+.board {
+  padding: 6px;
+}
