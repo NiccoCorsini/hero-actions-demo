@@ -7,6 +7,7 @@ This is an example React project demonstrating the use of [hero-actions](https:/
 Open the console to monitor the action flow! Redux-logger will clearly display the payload, prev state, and next state for each dispatched action.
 
 - **Live Demo**: [GitHub Pages](https://niccocorsini.github.io/hero-actions-demo/)
+- **CodeSandbox**: [CodeSanbox Link](https://codesandbox.io/p/github/NiccoCorsini/hero-actions-demo/main)
 
 ## Prerequisites
 
