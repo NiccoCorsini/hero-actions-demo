@@ -56,6 +56,7 @@ const Login = ({ status, error }: LoginProps) => {
             type="text"
             id="username"
             name="username"
+            placeholder="Your username..."
             autoComplete="name"
             value={credentials.username}
             onChange={handleChange}
@@ -70,6 +71,7 @@ const Login = ({ status, error }: LoginProps) => {
             type="password"
             id="password"
             name="password"
+            placeholder="Your password..."
             autoComplete="current-password"
             value={credentials.password}
             onChange={handleChange}
