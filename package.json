@@ -1,7 +1,7 @@
 {
   "name": "hero-actions-demo",
   "private": true,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "engines": {
     "node": ">=18"
   },
@@ -40,6 +40,7 @@
   },
   "author": "Niccolò Corsini",
   "license": "ISC",
+  "description": "A React demo project showcasing hero-actions with Redux core and Redux-Saga in a simulated login/logout flow. Includes redux-logger for action monitoring.",
   "repository": {
     "type": "git",
     "url": "https://github.com/NiccoCorsini/hero-actions-demo.git"
